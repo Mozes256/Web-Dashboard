@@ -1,0 +1,261 @@
+body{
+    top: 0;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    font-family: Poppins;
+    background: #f8f9fc;
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+}
+.left{
+    width: 20%;
+    background: #4E73DF;
+    left: 0;
+    padding: 10px;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.24);
+    border-radius: 10px 0 0 10px;
+}
+.left p{
+    color: #fff;
+    font-size: 25px;
+    padding: 2px;
+}
+.left p i{
+    padding: 5px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.left .links{
+    display: block;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+.links a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 16px;
+    color: #dfdede;
+    text-align: left;
+}
+.links a i{
+    padding: 5px;
+}
+.links a:hover{
+    color: #ffffff;
+}
+.right{
+    background-color: #f8f9fc;
+    width: 80%;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.16);
+}
+.right .head{
+    width: 100%;
+    display: flex;
+    background: #e4e3e3;
+    position: fixed;
+    height: 70px;
+    align-items: center;
+    z-index: 1;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+.search{
+    margin-left: 40px;
+}
+#searchbar{
+    border-radius: 6px;
+    padding: 4px;
+    width: 400px;
+    border-color: #6788eb;
+}
+.btn{
+    font-size: 18px;
+    border: 1px solid blue;
+}
+.profile{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.profile .icons{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+.profile .icons i{
+    margin: 10px;
+    font-size: 22px;
+    color: rgb(94, 108, 233);
+}
+
+.profile .icons img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+.texts{
+    display: flex;
+}
+.texts h4{
+    margin: 20px;
+    color: #646262;
+    font-size: 22px;
+}
+.texts button{
+    margin-left: 65%;
+    height: max-content;
+    margin-top: 20px;
+    background: #6474a3;
+    color: #fff;
+    border-radius: 4px;
+    padding: 2px;
+    border-color:#4E73DF;
+}
+.texts button:hover{
+    background: #4E73DF;
+    color: #333;
+    transition: .5s;
+}
+.cards{
+    display: flex;
+}
+.cards .card{
+    width: 25%;
+    height: max-content
+}
+.cards .card h1{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.cards .card h2{
+    font-size: 14px;;
+    text-align: center;
+    color: rgb(97, 132, 245);
+}
+.descript{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.descript .history{
+    width: 50%;
+    background: #fff;
+    padding: 10px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 10px;
+    border-top: 2px solid green;
+    box-shadow: 0 0 0 2px rgba(0,0,0,0.172);
+}
+.descript .history:hover{
+    height: 310px;
+    transition: .5s;
+}
+.descript .history h2{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #ecebeb;
+}
+.descript .history p{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: #969696;
+}
+.tables{
+    margin: 20px;
+    padding: 10px;
+    float: center;
+}
+.student{
+    border-collapse: collapse;
+    background: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:0 0 0 2px rgba(0.23,0.12,0,0.167);
+}
+th,tr,td{
+    border-bottom: 1px solid rgba(0.45,0.35,.267,.16);
+    text-align: left;
+    padding: 10px;
+}
+td{
+    width: 100%;
+    margin: 4px;
+}
+.footer{
+    width: 100%;
+    background: #333;
+    bottom: 0;
+    height: 70px;
+    border-radius: 1px0 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color: #fff;
+}
+.navigation{
+    height: 100px;
+    top: 0;
+    position: fixed;
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+}
+.navigation .pic-left{
+    display: flex;
+}
+.navigation .pic-left p{
+    margin-top: 30px;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 0;
+}
+.navigation .pic-left img{
+    width: 120px;
+    height: 120px;
+    margin-left: 50px;
+}
+.nav-right{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: #242425;
+    font-size: 16px;
+    padding: 7px;
+    cursor: pointer;
+}
+.nav-right a:hover{
+    color: #6788eb;
+}
+.last{
+    text-decoration: none;
+    color: #242425;
+    font-size: 16px;
+    padding: 7px;
+    cursor: pointer;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
